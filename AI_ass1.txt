@@ -1,0 +1,39 @@
+1. Why Turing Test failed to find the early Machine Intelligent Systems intelligent?
+Answer ->
+
+The Turing Test, proposed by Alan Turing in 1950, is a measure of a machine's ability to demonstrate human-like intelligence in a conversation with a human evaluator. However, many early AI systems failed to pass the Turing Test because they were not truly intelligent and simply used pre-programmed responses or simple pattern-matching techniques. Additionally, the test may not be suitable for measuring machine intelligence as it relies on the ability to simulate human-like conversation which is only one aspect of intelligence.
+
+2.What are the various methods of Problem Representation? Prove that they are equivalent to each
+other/ one another.
+Answer->
+
+ Natural Language: Representing a problem using natural language, such as English or Spanish.
+
+Graphical: Representing a problem using visual elements, such as diagrams or graphs.
+
+Mathematical: Representing a problem using mathematical notation, such as equations or formulas.
+
+Tabular: Representing a problem using tables or spreadsheets.
+
+Logical: Representing a problem using logical statements, such as propositional or predicate logic.
+
+These methods of representation are not always equivalent to one another, as a problem may have multiple valid representations. However, it is often possible to translate a problem from one representation to another. For example, a problem represented using natural language can be translated into a logical representation using predicate logic, and a problem represented using a table can be translated into a graphical representation using a chart or graph.
+
+Proving that these representations are equivalent to one another would require a specific problem and context, and would depend on the complexity of the problem and the methods used for the representation.
+
+
+3.How Ordinary Hill Climbing differs from Steepest Ascent Hill Climbing? How Breadth First Search
+differs from A* Heuristic?
+ANSWER ->  
+
+Ordinary Hill Climbing and Steepest Ascent Hill Climbing are both optimization algorithms that are used to find the global maximum or minimum of a function. However, they differ in the way they search for the optimal solution.
+
+Ordinary Hill Climbing starts at an arbitrary point on the function and moves to a neighboring point that results in an improvement in the function's value. It continues this process until it reaches a local maximum.
+
+Steepest Ascent Hill Climbing also starts at an arbitrary point on the function, but instead of moving to any neighboring point that improves the function's value, it moves to the neighboring point that results in the greatest improvement. This method is more efficient than ordinary hill climbing but it is also more prone to getting stuck in local maxima rather than reaching the global maxima.
+
+Breadth-First Search (BFS) and A* Heuristic are both graph search algorithms used to find a path in a graph from a starting node to a goal node. However, they differ in the way they explore the graph.
+
+BFS explores the graph by expanding all the nodes at the same level before moving on to the next level. This method guarantees that the shortest path will be found, but it can be inefficient in large or complex graphs.
+
+A* Heuristic also explores the graph, but it uses an estimated cost function (heuristic) to determine the order in which nodes are expanded. This method can be more efficient than BFS, but it does not always guarantee that the shortest path will be found.

@@ -1,0 +1,26 @@
+
+1. Penetrance is a concept in computational complexity theory that measures the difficulty of a search problem. The penetrance of a problem is a measure of the fraction of instances of the problem for which the optimal solution can be found in a given amount of time.
+
+Computing penetrance is useful for analyzing the performance of algorithms for solving search problems, and for comparing the difficulty of different search problems. Penetrance can also be used to identify hard-to-solve instances of problems, which can be used as test cases to evaluate the performance of algorithms.
+
+Penetrance computation is generally useless for problems that can be solved efficiently using polynomial-time algorithms, since in these cases the penetrance is close to 1.0. Additionally, penetrance computation may be impractical for very large problems, as it may require a large amount of time and computational resources to compute.
+
+
+
+2. In Artificial Intelligence, there are two main types of knowledge representation: declarative and procedural.
+
+Declarative knowledge representation expresses knowledge as facts or rules, and focuses on what the system knows. It includes representations such as:
+
+Rules-based systems (e.g. production systems)
+Logical representations (e.g. first-order logic)
+Semantic networks (e.g. frames)
+Procedural knowledge representation expresses knowledge as procedures or algorithms that specify how to perform tasks, and focuses on how the system knows. It includes representations such as:
+
+Imperative programming languages
+State-transition systems (e.g. finite state machines)
+Scripts (e.g. plans)
+The goal of declarative representation is to provide a compact, expressive, and easily modifiable representation of knowledge that can be used for a variety of tasks, such as reasoning, planning, and diagnosis.
+
+The goal of procedural representation is to provide an efficient and executable representation of knowledge that can be used for solving problems, such as performing actions and generating plans.
+
+An example of when the goal of both declarative and procedural representation would be unique is in a robot navigation system. Declarative knowledge might include a representation of the robot's environment and its objects, while procedural knowledge might include algorithms for path planning and obstacle avoidance. The declarative representation provides a concise, easy-to-modify representation of the robot's environment, while the procedural representation provides a way to execute actions in that environment to achieve specific goals.
